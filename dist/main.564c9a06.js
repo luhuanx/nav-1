@@ -126,8 +126,8 @@ var hashMap = xObject || [{
   logo: 'M',
   url: 'https://developer.mozilla.org'
 }, {
-  logo: 'B',
-  url: 'https://www.bilibili.com'
+  logo: 'G',
+  url: 'https://github.com'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -181,4 +181,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.d9a3250a.js.map
+//# sourceMappingURL=main.564c9a06.js.map
