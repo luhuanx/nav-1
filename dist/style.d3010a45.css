@@ -1,0 +1,194 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input,
+button {
+    font-family: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    /* min-height: 100%; */
+
+}
+
+/* style */
+body {
+    background: #eee;
+}
+
+.globalHeader {
+    margin: 30px;
+
+}
+
+@media (min-width:500px) {
+    .globalHeader {
+        margin: 50px 0;
+
+    }
+}
+
+.searchForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:500px) {
+    .searchForm {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.searchForm>input {
+    width: 100%;
+    margin-right: 10px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.searchForm>button {
+    white-space: nowrap;
+    padding: 0 27px;
+    border: none;
+    background: #033E6B;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.globalMain {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.siteList {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width:500px) {
+    .siteList {
+        margin-left: 0;
+        margin-right: -15px;
+        justify-content: flex-start;
+    }
+}
+
+.siteList>li {
+    margin-bottom: 15px;
+}
+
+@media (min-width:500px) {
+    .siteList>li {
+        margin-right: 15px;
+    }
+}
+
+.siteList .site {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.siteList .site>.logo {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.siteList .site>.link {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.siteList .site>.close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: none;
+    cursor: default;
+}
+
+.siteList .site:hover>.close {
+    display: block;
+
+}
+
+.siteList .addButton {
+    border: 1px solid #ddd;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 20px 0;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.siteList .addButton .icon {
+    width: 64px;
+    height: 64px;
+}
+
+.siteList .addButton .text {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.siteList .addButton .icon-wrapper {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*# sourceMappingURL=style.d3010a45.css.map */
