@@ -123,8 +123,14 @@ var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: 'M',
-  url: 'https://developer.mozilla.org'
+  logo: 'C',
+  url: 'https://cssgradient.io'
+}, {
+  logo: 'F',
+  url: 'https://www.figma.com'
+}, {
+  logo: 'I',
+  url: 'https://www.iconfont.cn'
 }, {
   logo: 'G',
   url: 'https://github.com'
@@ -181,4 +187,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.564c9a06.js.map
+//# sourceMappingURL=main.fd5943b2.js.map

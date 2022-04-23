@@ -38,7 +38,9 @@ img {
 
 /* style */
 body {
-    background: #eee;
+    /* max-width: 100vh;
+    max-height: 100vh; */
+    background: #7d90be;
 }
 
 .globalHeader {
@@ -138,13 +140,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
     font-size: 64px;
+    line-height: 77px;
+    color: #2B589B;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
 }
 
 .siteList .site>.link {
     font-size: 14px;
     margin-top: 5px;
+    color: #2B589B;
+
 }
 
 .siteList .site>.close {
@@ -169,6 +180,7 @@ body {
     flex-direction: column;
     border-radius: 4px;
     padding: 20px 0;
+    color: #2B589B;
     background: white;
     margin-bottom: 20px;
 }
@@ -191,4 +203,4 @@ body {
     align-items: center;
 }
 
-/*# sourceMappingURL=style.d3010a45.css.map */
+/*# sourceMappingURL=style.dc35d9ec.css.map */

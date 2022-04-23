@@ -3,7 +3,9 @@ const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 const hashMap = xObject || [
-    { logo: 'M', url: 'https://developer.mozilla.org' },
+    { logo: 'C', url: 'https://cssgradient.io' },
+    { logo: 'F', url: 'https://www.figma.com' },
+    { logo: 'I', url: 'https://www.iconfont.cn' },
     { logo: 'G', url: 'https://github.com' }
 ]
 
